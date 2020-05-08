@@ -1,0 +1,123 @@
+.bodyhome {
+  background-image: url("vinyl.png");
+  background-size: 100% auto;
+  margin: 0;
+  text-align: center;
+}
+
+body {
+  background-color: #222831;
+  margin: 0;
+  text-align: center;
+}
+
+.top {
+  padding-top: 45px;
+  background-image: url("vinyl.png");
+  background-size: 100% auto;
+  padding-bottom: 25px;
+}
+
+.album:hover {
+  opacity: 0.6;
+  filter: alpha(opacity=100);
+}
+
+a:link {
+  color: #222831;
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #222831;
+}
+
+h1 {
+  font-family: 'Indie Flower', cursive;
+  color: #fb7b6b;
+  background-color: rgb(0, 79, 128);
+  background-color: rgba(0, 79, 128, 0.84);
+  font-size: 6vw;
+  margin-top: 33px;
+  padding-top: 10px;
+  margin-bottom: 73px;
+  white-space: nowrap;
+}
+
+#profile {
+  width: 20%;
+}
+
+h2 {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #ececec;
+  white-space: nowrap;
+  display: inline;
+}
+
+h3 {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #ececec;
+}
+
+h4 {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #222831;
+}
+
+.genre {
+  background-color: #fb7b6b;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.genrebox {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.genreselect {
+  color: #222831;
+  white-space: nowrap;
+  object-fit: cover;
+}
+
+.genrebox:hover {
+  opacity: 0.2;
+  filter: alpha(opacity=100);
+}
+
+#this {
+  border: 1px solid #222831;
+  padding-top: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.albumcontainer {
+  padding: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+
+.music {}
+
+.album {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media only screen and (max-width:680px) {
+  .genre {
+    grid-template-columns: 1fr;
+  }
