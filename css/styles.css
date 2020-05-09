@@ -20,7 +20,6 @@ body {
 }
 
 .fixcontainer{
-  position: -webkit-sticky; /* Safari & IE */
 position: sticky;
 top:0;
 }
