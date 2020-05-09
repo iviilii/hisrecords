@@ -13,10 +13,18 @@ body {
   padding-bottom: 25px;
 }
 
-.album:hover {
-  opacity: 0.6;
-  filter: alpha(opacity=100);
+.filler{
+    background-color: #222831;
+    padding: 10px;
+
 }
+
+.fixcontainer{
+  position: -webkit-sticky; /* Safari & IE */
+position: sticky;
+top:0;
+}
+
 
 a:link {
   color: #222831;
